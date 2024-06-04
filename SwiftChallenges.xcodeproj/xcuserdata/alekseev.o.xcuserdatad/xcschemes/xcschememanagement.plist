@@ -9,10 +9,23 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>SwiftChallengesUnitTests.xcscheme_^#shared#^_</key>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2A9694972C0F0A4100369C0B</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A9694A52C0F0B4D00369C0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A9694B42C0F0F9800369C0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
