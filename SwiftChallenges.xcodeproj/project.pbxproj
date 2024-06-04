@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1865AC2C0F3EF30055373F /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1865AB2C0F3EF30055373F /* Challenge2.swift */; };
 		2A96949C2C0F0A4100369C0B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A96949B2C0F0A4100369C0B /* main.swift */; };
 		2A9694B02C0F0CBB00369C0B /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */; };
 		2A9694BD2C0F195D00369C0B /* StringChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9694BC2C0F195D00369C0B /* StringChallenges.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A1865AB2C0F3EF30055373F /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
 		2A9694982C0F0A4100369C0B /* SwiftChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A96949B2C0F0A4100369C0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
@@ -70,8 +72,9 @@
 		2A9694AE2C0F0CAF00369C0B /* Strings */ = {
 			isa = PBXGroup;
 			children = (
-				2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */,
 				2A9694BC2C0F195D00369C0B /* StringChallenges.swift */,
+				2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */,
+				2A1865AB2C0F3EF30055373F /* Challenge2.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1865AC2C0F3EF30055373F /* Challenge2.swift in Sources */,
 				2A96949C2C0F0A4100369C0B /* main.swift in Sources */,
 				2A9694B02C0F0CBB00369C0B /* Challenge1.swift in Sources */,
 				2A9694BD2C0F195D00369C0B /* StringChallenges.swift in Sources */,

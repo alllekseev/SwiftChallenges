@@ -10,5 +10,6 @@ import Foundation
 final class StringChallenges {
   func run() {
     testChallenge1()
+    testChallenge2()
   }
 }
