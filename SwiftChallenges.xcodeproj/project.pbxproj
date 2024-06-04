@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A96949C2C0F0A4100369C0B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A96949B2C0F0A4100369C0B /* main.swift */; };
+		2A9694A92C0F0B4D00369C0B /* SwiftChallengesUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9694A82C0F0B4D00369C0B /* SwiftChallengesUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,19 @@
 /* Begin PBXFileReference section */
 		2A9694982C0F0A4100369C0B /* SwiftChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A96949B2C0F0A4100369C0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2A9694A62C0F0B4D00369C0B /* SwiftChallengesUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftChallengesUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9694A82C0F0B4D00369C0B /* SwiftChallengesUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChallengesUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2A9694952C0F0A4100369C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9694A32C0F0B4D00369C0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				2A96949A2C0F0A4100369C0B /* SwiftChallenges */,
+				2A9694A72C0F0B4D00369C0B /* SwiftChallengesUnitTests */,
 				2A9694992C0F0A4100369C0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				2A9694982C0F0A4100369C0B /* SwiftChallenges */,
+				2A9694A62C0F0B4D00369C0B /* SwiftChallengesUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +72,14 @@
 				2A96949B2C0F0A4100369C0B /* main.swift */,
 			);
 			path = SwiftChallenges;
+			sourceTree = "<group>";
+		};
+		2A9694A72C0F0B4D00369C0B /* SwiftChallengesUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A9694A82C0F0B4D00369C0B /* SwiftChallengesUnitTests.swift */,
+			);
+			path = SwiftChallengesUnitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +102,23 @@
 			productReference = 2A9694982C0F0A4100369C0B /* SwiftChallenges */;
 			productType = "com.apple.product-type.tool";
 		};
+		2A9694A52C0F0B4D00369C0B /* SwiftChallengesUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A9694AA2C0F0B4D00369C0B /* Build configuration list for PBXNativeTarget "SwiftChallengesUnitTests" */;
+			buildPhases = (
+				2A9694A22C0F0B4D00369C0B /* Sources */,
+				2A9694A32C0F0B4D00369C0B /* Frameworks */,
+				2A9694A42C0F0B4D00369C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftChallengesUnitTests;
+			productName = SwiftChallengesUnitTests;
+			productReference = 2A9694A62C0F0B4D00369C0B /* SwiftChallengesUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +130,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					2A9694972C0F0A4100369C0B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2A9694A52C0F0B4D00369C0B = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -111,9 +151,20 @@
 			projectRoot = "";
 			targets = (
 				2A9694972C0F0A4100369C0B /* SwiftChallenges */,
+				2A9694A52C0F0B4D00369C0B /* SwiftChallengesUnitTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9694A42C0F0B4D00369C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A9694942C0F0A4100369C0B /* Sources */ = {
@@ -121,6 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A96949C2C0F0A4100369C0B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9694A22C0F0B4D00369C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9694A92C0F0B4D00369C0B /* SwiftChallengesUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +326,36 @@
 			};
 			name = Release;
 		};
+		2A9694AB2C0F0B4D00369C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H94WDCFCK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseev.oleg.SwiftChallengesUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A9694AC2C0F0B4D00369C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H94WDCFCK6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alekseev.oleg.SwiftChallengesUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +373,15 @@
 			buildConfigurations = (
 				2A9694A02C0F0A4100369C0B /* Debug */,
 				2A9694A12C0F0A4100369C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A9694AA2C0F0B4D00369C0B /* Build configuration list for PBXNativeTarget "SwiftChallengesUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9694AB2C0F0B4D00369C0B /* Debug */,
+				2A9694AC2C0F0B4D00369C0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
