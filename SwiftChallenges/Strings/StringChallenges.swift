@@ -17,5 +17,6 @@ final class StringChallenges {
     testChallenge6()
     testChallenge7()
     testChallenge8()
+    testChallenge9()
   }
 }
