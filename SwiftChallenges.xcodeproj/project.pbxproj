@@ -11,6 +11,7 @@
 		2A1865AE2C0F40340055373F /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1865AD2C0F40340055373F /* Challenge3.swift */; };
 		2A1865B02C0F485A0055373F /* Challenge4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1865AF2C0F485A0055373F /* Challenge4.swift */; };
 		2A1865B22C0F4DE70055373F /* Challenge5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1865B12C0F4DE70055373F /* Challenge5.swift */; };
+		2A5CE9132C103A4F0073329A /* Challenge7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CE9122C103A4F0073329A /* Challenge7.swift */; };
 		2A96949C2C0F0A4100369C0B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A96949B2C0F0A4100369C0B /* main.swift */; };
 		2A9694B02C0F0CBB00369C0B /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */; };
 		2A9694BD2C0F195D00369C0B /* StringChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9694BC2C0F195D00369C0B /* StringChallenges.swift */; };
@@ -34,6 +35,7 @@
 		2A1865AD2C0F40340055373F /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
 		2A1865AF2C0F485A0055373F /* Challenge4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge4.swift; sourceTree = "<group>"; };
 		2A1865B12C0F4DE70055373F /* Challenge5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge5.swift; sourceTree = "<group>"; };
+		2A5CE9122C103A4F0073329A /* Challenge7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge7.swift; sourceTree = "<group>"; };
 		2A9694982C0F0A4100369C0B /* SwiftChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A96949B2C0F0A4100369C0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				2A1865AF2C0F485A0055373F /* Challenge4.swift */,
 				2A1865B12C0F4DE70055373F /* Challenge5.swift */,
 				2AACBEAE2C0FADA30008D4F4 /* Challenge6.swift */,
+				2A5CE9122C103A4F0073329A /* Challenge7.swift */,
 			);
 			path = Strings;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				2A9694B02C0F0CBB00369C0B /* Challenge1.swift in Sources */,
 				2AACBEAF2C0FADA30008D4F4 /* Challenge6.swift in Sources */,
 				2A1865B22C0F4DE70055373F /* Challenge5.swift in Sources */,
+				2A5CE9132C103A4F0073329A /* Challenge7.swift in Sources */,
 				2A1865AE2C0F40340055373F /* Challenge3.swift in Sources */,
 				2A9694BD2C0F195D00369C0B /* StringChallenges.swift in Sources */,
 			);
