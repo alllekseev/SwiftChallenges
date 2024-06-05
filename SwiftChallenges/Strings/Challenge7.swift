@@ -14,6 +14,7 @@ extension StringChallenges{
   /// - Estimated Time: 15 minutes
   /// - Spending Time: 40 minutes
   /// - Note: For similar tasks, first, consider the possibility of using a regular expression-based solution.
+  /// - Important: RegEx can be expensive in performace
 
   func challenge7(string: String) -> String {
 

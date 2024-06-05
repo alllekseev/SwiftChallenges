@@ -12,9 +12,9 @@ extension StringChallenges {
   /// - Difficulty: Easy
   /// - Estimated Time: 15 minutes
   /// - Spending Time: 10 minutes
-  /// - Note: in `reduce` $0 always Int for counting, and $1 is and current element in array
+  /// - Note: in `reduce` $0 always Int for counting, and $1 is current element in array
   /// - Important: `reduce` about **10% slower** than the `for in` loop.
-  /// ``NSCountedSet`` approach **a massive ten times slower** than the original
+  /// `NSCountedSet` approach **a massive ten times slower** than the original
 
   func challenge5(input: String, count: Character) -> Int {
 
