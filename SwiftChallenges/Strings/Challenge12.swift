@@ -63,7 +63,7 @@ extension StringChallenges {
 //      bestPrefix = currentPrefix
 //    }
 //    return bestPrefix
-    
+
   }
 
   func testChallenge12() {
