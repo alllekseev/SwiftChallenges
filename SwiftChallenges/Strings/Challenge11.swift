@@ -14,7 +14,7 @@ extension StringChallenges {
   ///   lenght but have no more than three different letters,
   ///   taking case and string order into account.
   /// - Difficulty: Tricky
-  /// - Estimated Time: 30 minutes
+  /// - Estimated Time: 20 minutes
   /// - Spending Time: 10 minutes
   /// - Note: Convert the string into an array to make it easier to work with indexes.
 

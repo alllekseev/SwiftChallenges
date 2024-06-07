@@ -10,7 +10,7 @@ import Foundation
 extension StringChallenges {
   /// - Name: Is a string a palindrome?
   /// - Difficulty: Easy
-  /// - Estimated Time: 15 minutes
+  /// - Estimated Time: 10 minutes
   /// - Spending Time: 12 minutes
   /// - Note: Solved this with two pointers method
 

@@ -12,7 +12,7 @@ extension StringChallenges {
   /// - Description: Write a function that returns true if it is given
   ///   a string that is an English pangram, ignoring letter case.
   /// - Difficulty: Tricky
-  /// - Estimated Time: 30 minutes
+  /// - Estimated Time: 20 minutes
   /// - Spending Time: 7 minutes
   /// - Note: Swift’s characters conform to Comparable,
   ///   so you can compare them against “a” and “z” directly

@@ -9,7 +9,8 @@ import Foundation
 
 extension StringChallenges {
   /// - Name: Remove duplicate letters from a string
-  /// - Description: accepts a string as its input, and returns the same string just with duplicate letters removed
+  /// - Description: accepts a string as its input, 
+  ///   and returns the same string just with duplicate letters removed
   /// - Difficulty: Easy
   /// - Estimated Time: 15 minutes
   /// - Spending Time: 10 minutes

@@ -10,7 +10,7 @@ import Foundation
 extension StringChallenges {
   /// - Name: Do two strings contain the same characters?
   /// - Difficulty: Easy
-  /// - Estimated Time: 15 minutes
+  /// - Estimated Time: 10 minutes
   /// - Spending Time: 19 minutes
   /// - Note: solve this with sort
 

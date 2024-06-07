@@ -13,7 +13,7 @@ extension StringChallenges {
   ///   a string as input, then returns how often each
   ///   etter is repeated in a single run, taking case into account.
   /// - Difficulty: Tricky
-  /// - Estimated Time: 1 hour
+  /// - Estimated Time: 30 hour
   /// - Spending Time: 17 minutes
 
   func challenge13(input: String) -> String {

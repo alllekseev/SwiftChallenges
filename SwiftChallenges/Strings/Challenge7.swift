@@ -9,11 +9,13 @@ import Foundation
 
 extension StringChallenges{
   /// - Name: Condense whitespace
-  /// - Description: Write a function that returns a string with any consecutive spaces replaced with a single space.
+  /// - Description: Write a function that returns a string 
+  ///   with any consecutive spaces replaced with a single space.
   /// - Difficulty: Easy
-  /// - Estimated Time: 15 minutes
+  /// - Estimated Time: 10 minutes
   /// - Spending Time: 40 minutes
-  /// - Note: For similar tasks, first, consider the possibility of using a regular expression-based solution.
+  /// - Note: For similar tasks, first, consider the possibility of 
+  ///   using a regular expression-based solution.
   /// - Important: RegEx can be expensive in performace
 
   func challenge7(string: String) -> String {

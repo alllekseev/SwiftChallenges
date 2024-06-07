@@ -18,9 +18,9 @@ extension StringChallenges {
 fileprivate extension String {
   /// - Name: Does one string contain another?
   /// - Difficulty: Easy
-  /// - Estimated Time: 15 minutes
+  /// - Estimated Time: 10 minutes
   /// - Spending Time: 5 minutes
-  /// - Note: for implementing custom ``contains(_:)`` method you can use ``range(of:)``
+  /// - Note: for implementing custom `contains(_:)` method you can use `range(of:)`
 
   func fuzzyContains(_ string: String) -> Bool {
     range(of: string, options: .caseInsensitive) != nil

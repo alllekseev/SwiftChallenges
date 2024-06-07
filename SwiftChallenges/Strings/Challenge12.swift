@@ -13,7 +13,7 @@ extension StringChallenges {
   ///   with a similar prefix, separated by spaces, and returns the longest
   ///   substring that prefixes all words.
   /// - Difficulty: Tricky
-  /// - Estimated Time: 30 minutes
+  /// - Estimated Time: 20 minutes
   /// - Spending Time: 15 minutes
   /// - Note: Note: `split` removes all symbols from a string, whereas
   ///   `components(separatedBy:)` only removes ones between words.

@@ -11,7 +11,7 @@ extension StringChallenges {
 
   /// - Name: Are the letters unique?
   /// - Difficulty: Easy
-  /// - Estimated Time: 15 minutes
+  /// - Estimated Time: 10 minutes
   /// - Spending Time: 7 minutes
 
   func challenge1(input: String) -> Bool {

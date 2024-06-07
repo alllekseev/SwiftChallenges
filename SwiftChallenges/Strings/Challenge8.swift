@@ -13,7 +13,7 @@ extension StringChallenges {
   ///   and returns true if one string is rotation the other,
   ///   taking letter case into account.
   /// - Difficulty: Tricky
-  /// - Estimated Time: 30 minutes
+  /// - Estimated Time: 20 minutes
   /// - Spending Time: 26 minutes
   /// - Note: You need to **double the string** being checked.
   ///   Then, it will definitely contain a **rotated** version of the original string.

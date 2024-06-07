@@ -12,7 +12,7 @@ extension StringChallenges {
   /// - Description: Given a string in English, return a tuple containing
   ///   the number of vowels and consonants.
   /// - Difficulty: Tricky
-  /// - Estimated Time: 30 minutes
+  /// - Estimated Time: 20 minutes
   /// - Spending Time: 10 minutes
   /// - Note: Solution 2 is more suitable and simpler.
 

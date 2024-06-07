@@ -10,7 +10,7 @@ import Foundation
 extension StringChallenges {
   /// - Name: Count the characters
   /// - Difficulty: Easy
-  /// - Estimated Time: 15 minutes
+  /// - Estimated Time: 10 minutes
   /// - Spending Time: 10 minutes
   /// - Note: in `reduce` $0 always Int for counting, and $1 is current element in array
   /// - Important: `reduce` about **10% slower** than the `for in` loop.
