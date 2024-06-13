@@ -15,12 +15,7 @@ extension StringChallenges {
   /// - Spending Time: 10 minutes
 
   func challenge15(input: String) -> String {
-
-    var newStr = input.components(separatedBy: " ").map { String($0.reversed()) }.joined(separator: " ")
-
-
-
-    return newStr
+    return input.components(separatedBy: " ").map { String($0.reversed()) }.joined(separator: " ")
   }
 
   func testChallenge15() {

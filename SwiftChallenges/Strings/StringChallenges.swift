@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class StringChallenges {
+final class StringChallenges: ChallengeProtocol {
   func run() {
     testChallenge1()
     testChallenge2()

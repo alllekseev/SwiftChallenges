@@ -22,6 +22,9 @@
 		2A9694B02C0F0CBB00369C0B /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */; };
 		2A9694BD2C0F195D00369C0B /* StringChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9694BC2C0F195D00369C0B /* StringChallenges.swift */; };
 		2AACBEAF2C0FADA30008D4F4 /* Challenge6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AACBEAE2C0FADA30008D4F4 /* Challenge6.swift */; };
+		2AD663822C1B35B700E879AC /* NumberChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD663812C1B35B700E879AC /* NumberChallenges.swift */; };
+		2AD663842C1B35C700E879AC /* ChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD663832C1B35C700E879AC /* ChallengeProtocol.swift */; };
+		2AD663862C1B362B00E879AC /* Challenge16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD663852C1B362B00E879AC /* Challenge16.swift */; };
 		2AFBBD6E2C1A0669009346B9 /* Challenge15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBD6D2C1A0669009346B9 /* Challenge15.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +57,9 @@
 		2A9694AF2C0F0CBB00369C0B /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
 		2A9694BC2C0F195D00369C0B /* StringChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringChallenges.swift; sourceTree = "<group>"; };
 		2AACBEAE2C0FADA30008D4F4 /* Challenge6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge6.swift; sourceTree = "<group>"; };
+		2AD663812C1B35B700E879AC /* NumberChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberChallenges.swift; sourceTree = "<group>"; };
+		2AD663832C1B35C700E879AC /* ChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeProtocol.swift; sourceTree = "<group>"; };
+		2AD663852C1B362B00E879AC /* Challenge16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge16.swift; sourceTree = "<group>"; };
 		2AFBBD6D2C1A0669009346B9 /* Challenge15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge15.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				2A96949B2C0F0A4100369C0B /* main.swift */,
+				2AD663832C1B35C700E879AC /* ChallengeProtocol.swift */,
 				2A9694AE2C0F0CAF00369C0B /* Strings */,
+				2AD663802C1B357900E879AC /* Numbers */,
 			);
 			path = SwiftChallenges;
 			sourceTree = "<group>";
@@ -113,6 +121,15 @@
 				2AFBBD6D2C1A0669009346B9 /* Challenge15.swift */,
 			);
 			path = Strings;
+			sourceTree = "<group>";
+		};
+		2AD663802C1B357900E879AC /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				2AD663812C1B35B700E879AC /* NumberChallenges.swift */,
+				2AD663852C1B362B00E879AC /* Challenge16.swift */,
+			);
+			path = Numbers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +192,7 @@
 			files = (
 				2A1865B02C0F485A0055373F /* Challenge4.swift in Sources */,
 				2A1865AC2C0F3EF30055373F /* Challenge2.swift in Sources */,
+				2AD663822C1B35B700E879AC /* NumberChallenges.swift in Sources */,
 				2A746D8E2C139E280075A22C /* Challenge13.swift in Sources */,
 				2A5CE9172C10A5710073329A /* Challenge9.swift in Sources */,
 				2A96949C2C0F0A4100369C0B /* main.swift in Sources */,
@@ -182,6 +200,7 @@
 				2A45FBA52C118F1D0099FAD5 /* Challenge12.swift in Sources */,
 				2A9694B02C0F0CBB00369C0B /* Challenge1.swift in Sources */,
 				2AACBEAF2C0FADA30008D4F4 /* Challenge6.swift in Sources */,
+				2AD663862C1B362B00E879AC /* Challenge16.swift in Sources */,
 				2A1865B22C0F4DE70055373F /* Challenge5.swift in Sources */,
 				2A45FBA32C10FAD00099FAD5 /* Challenge11.swift in Sources */,
 				2A5CE9132C103A4F0073329A /* Challenge7.swift in Sources */,
@@ -189,6 +208,7 @@
 				2A1865AE2C0F40340055373F /* Challenge3.swift in Sources */,
 				2A5CE9152C106F670073329A /* Challenge8.swift in Sources */,
 				2A9694BD2C0F195D00369C0B /* StringChallenges.swift in Sources */,
+				2AD663842C1B35C700E879AC /* ChallengeProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

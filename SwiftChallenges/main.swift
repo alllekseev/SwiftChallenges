@@ -7,5 +7,5 @@
 
 import Foundation
 
-StringChallenges().run()
-
+//StringChallenges().run()
+NumberChallenges().run()
