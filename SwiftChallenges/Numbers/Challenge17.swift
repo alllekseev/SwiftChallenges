@@ -9,8 +9,9 @@ import Foundation
 
 extension NumberChallenges {
   /// - Name: Generate a random number in a range
-  /// - Description: Write a function that accepts positive minimum and maximum
-  ///  integers, and returns a random number between those two bounds, inclusive.
+  /// - Description: Write a function that accepts positive
+  ///   minimum and maximum integers, and returns a random
+  ///   number between those two bounds, inclusive.
   /// - Difficulty: Easy
   /// - Estimated Time: 10 minutes
   /// - Spending Time: 2 minutes
