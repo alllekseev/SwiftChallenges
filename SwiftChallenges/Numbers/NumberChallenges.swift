@@ -10,6 +10,7 @@ import Foundation
 final class NumberChallenges: ChallengeProtocol {
   func run() {
     testChallenge16()
+    testChallenge17()
   }
 
 }

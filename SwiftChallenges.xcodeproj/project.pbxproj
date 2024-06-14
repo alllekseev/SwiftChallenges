@@ -25,6 +25,7 @@
 		2AD663822C1B35B700E879AC /* NumberChallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD663812C1B35B700E879AC /* NumberChallenges.swift */; };
 		2AD663842C1B35C700E879AC /* ChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD663832C1B35C700E879AC /* ChallengeProtocol.swift */; };
 		2AD663862C1B362B00E879AC /* Challenge16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD663852C1B362B00E879AC /* Challenge16.swift */; };
+		2AD663882C1B3A8200E879AC /* Challenge17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD663872C1B3A8200E879AC /* Challenge17.swift */; };
 		2AFBBD6E2C1A0669009346B9 /* Challenge15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFBBD6D2C1A0669009346B9 /* Challenge15.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		2AD663812C1B35B700E879AC /* NumberChallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberChallenges.swift; sourceTree = "<group>"; };
 		2AD663832C1B35C700E879AC /* ChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeProtocol.swift; sourceTree = "<group>"; };
 		2AD663852C1B362B00E879AC /* Challenge16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge16.swift; sourceTree = "<group>"; };
+		2AD663872C1B3A8200E879AC /* Challenge17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge17.swift; sourceTree = "<group>"; };
 		2AFBBD6D2C1A0669009346B9 /* Challenge15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge15.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 			children = (
 				2AD663812C1B35B700E879AC /* NumberChallenges.swift */,
 				2AD663852C1B362B00E879AC /* Challenge16.swift */,
+				2AD663872C1B3A8200E879AC /* Challenge17.swift */,
 			);
 			path = Numbers;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				2A5CE9172C10A5710073329A /* Challenge9.swift in Sources */,
 				2A96949C2C0F0A4100369C0B /* main.swift in Sources */,
 				2AFBBD6E2C1A0669009346B9 /* Challenge15.swift in Sources */,
+				2AD663882C1B3A8200E879AC /* Challenge17.swift in Sources */,
 				2A45FBA52C118F1D0099FAD5 /* Challenge12.swift in Sources */,
 				2A9694B02C0F0CBB00369C0B /* Challenge1.swift in Sources */,
 				2AACBEAF2C0FADA30008D4F4 /* Challenge6.swift in Sources */,
